@@ -115,7 +115,8 @@ GET /api/v1/entries/get
 ```json
 {
     "status": "success",
-    "data": [{'id': 1, 'title': 'External Revenue', 'category': 'General Revenue', 'date': 1724925600, 'amount': 7000.0, 'description': 'External Revenue 123'}, {'id': 2, 'title': 'Desk purchase', 'category': 'General Expense', 'date': 1681293600, 'amount': -800.0, 'description': 'Purchased new Desks'}]
+    "data": [
+          {"id": 1, "title": "External Revenue", "category": "General Revenue", "date": 1724925600, "amount": 7000.0, "description": "External Revenue 123"}, {"id": 2, "title": "Desk purchase", "category":"General Expense", "date": 1681293600, "amount": -800.0, "description": "Purchased new Desks"}]
 
 }
 ```
@@ -130,7 +131,7 @@ GET /api/v1/categories/get
 ```json
 {
     "status": "success",
-    "data": [{'id': 1, 'name': 'General Expense', 'color': '#FF8080', 'tag': 'expense'}, {'id': 2, 'name': 'General Revenue', 'color': '#00FF00', 'tag': 'revenue'}]
+    "data": [{"id": 1, "name": "General Expense", "color": "#FF8080", "tag": "expense"}, {"id": 2, "name": "General Revenue", "color": "#00FF00", "tag": "revenue"}]
 }
 ```
 

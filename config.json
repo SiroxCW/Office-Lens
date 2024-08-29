@@ -1,0 +1,11 @@
+{
+  "influxdb": {
+    "host": "http://localhost:8086",
+    "bucket": "officelens_data",
+    "organization": "personal",
+    "token": "irtmP56EoGsrSaUp0iWDjJkMMVBsCzZT7v7ORGSCwm686zEWOuS6RDNi0uHxyG-ovUnc1BFGWjhTpaKwEKvCFQ=="
+  },
+  "flask": {
+    "host": "http://localhost:5000"
+    }
+}
